@@ -17,6 +17,19 @@ Stock price data is pulled in real time from the CS50 finance API, which sources
 - Username: `aselle123`
 - Password: `aselle123`
 
+<img width="1709" height="772" alt="Screenshot 2026-03-08 at 9 43 21 PM" src="https://github.com/user-attachments/assets/2b24592a-6146-47ce-8d74-492d06b1f145" />
+<img width="1708" height="672" alt="Screenshot 2026-03-08 at 9 44 03 PM" src="https://github.com/user-attachments/assets/be61d1e4-11f5-42e0-a40e-0758938e1c85" />
+<img width="1709" height="669" alt="Screenshot 2026-03-08 at 9 44 59 PM" src="https://github.com/user-attachments/assets/23a72bef-83a1-4534-b914-10646f74de62" />
+<img width="1707" height="750" alt="Screenshot 2026-03-08 at 9 45 35 PM" src="https://github.com/user-attachments/assets/d291ca9e-2e54-4edf-bb67-c82e14f94244" />
+<img width="1707" height="799" alt="Screenshot 2026-03-08 at 9 45 52 PM" src="https://github.com/user-attachments/assets/6ac846b4-9e8f-4796-a77e-63c86351a525" />
+<img width="1707" height="748" alt="Screenshot 2026-03-08 at 9 46 11 PM" src="https://github.com/user-attachments/assets/a0d580ec-e785-44de-a725-7a8c4d9e458f" />
+<img width="1705" height="697" alt="Screenshot 2026-03-08 at 9 46 33 PM" src="https://github.com/user-attachments/assets/7cc7c32b-f479-4d36-bf18-f86d3801d85a" />
+<img width="1705" height="758" alt="Screenshot 2026-03-08 at 9 47 09 PM" src="https://github.com/user-attachments/assets/f01d11b4-329b-4900-9b2c-552481a6ba20" />
+<img width="1705" height="815" alt="Screenshot 2026-03-08 at 9 47 33 PM" src="https://github.com/user-attachments/assets/c8d4f7f8-ab81-4843-a1e7-c99915e505d1" />
+<img width="1705" height="973" alt="Screenshot 2026-03-08 at 9 48 05 PM" src="https://github.com/user-attachments/assets/26e93f67-d2ea-4ec9-a6e6-f7b97640e2fe" />
+<img width="1704" height="947" alt="Screenshot 2026-03-08 at 9 48 22 PM" src="https://github.com/user-attachments/assets/f456bf4b-bd83-4420-b229-83e229d06ebc" />
+
+
 ## 🧭 App Flow
 
 1. User registers and receives $10,000 in virtual cash
