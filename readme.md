@@ -8,11 +8,14 @@
 
 ## 🎯 Overview
 
-TradeX is a stock trading web application built as the CS50 Finance final project. It simulates a real brokerage experience — users start with $10,000 in virtual cash and can look up real stock prices, buy and sell shares, track their portfolio performance, and review their full transaction history.
+TradeX is a stock trading web application simulates a real brokerage experience — users start with $10,000 in virtual cash and can look up real stock prices, buy and sell shares, track their portfolio performance, and review their full transaction history.
 
 Stock price data is pulled in real time from the CS50 finance API, which sources live US market data.
 
 ---
+**Demo account:**
+- Username: `aselle123`
+- Password: `aselle123`
 
 ## 🧭 App Flow
 
@@ -118,7 +121,7 @@ The app is deployed on Render, connected to this GitHub repository.
 
 - **Build Command:** `pip install -r requirements.txt`
 - **Start Command:** `gunicorn app:app`
-- **Live URL:** _add your Render URL here_
+- **Live URL:** `https://tradex-ewhz.onrender.com`
 
 ---
 
