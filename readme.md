@@ -14,6 +14,7 @@ Stock price data is pulled in real time from the CS50 finance API, which sources
 
 ---
 **Demo account:**
+- https://tradex-ewhz.onrender.com
 - Username: `aselle123`
 - Password: `aselle123`
 
