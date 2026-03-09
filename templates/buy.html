@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy a Stock
+{% endblock %}
+
+{% block main %}
+    <!-- <form action="/quote" method="post"> -->
+    <form action="{{url_for('buy')}}" method="post">
+        <h2>Buy a Stock </h2>
+		<div class="form-text text-muted">
+    Enter a valid US stock ticker (e.g. AAPL, TSLA, MSFT). ETFs like SPY or QQQ are not supported.
+        </div>
+
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="symbol" placeholder="Symbol" type="text">
+        </div>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="shares" placeholder="Shares" type="text">
+        </div>
+        <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Buy</button>
+    </form>
+    
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}Portfolio{% endblock %}
+
+{% block main %}
+<h2>The history of Transactions</h2>
+<table class="table table-striped table-hover text-start">
+    <thead>
+        <tr>
+            <th>Symbol </th>
+            <th>Name </th>
+			<th>Action</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Date</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        {% for stock in history %}
+        <tr>
+            <td>{{ stock.symbol }}</td>
+            <td>{{ stock.name }}</td>
+            <!-- <td>{{"Bought" if stock.shares > 0 else "Sold" }} </td>
+            <td>{{ stock.shares}}</td> -->
+			<td class="{{ 'text-success' if stock.shares > 0 else 'text-danger' }}">{{ "Bought" if stock.shares > 0 else "Sold" }}</td>
+			<td class="{{ 'text-success' if stock.shares > 0 else 'text-danger' }}">{{ stock.shares }}</td>
+            <td>{{ stock.price | usd }}</td>
+            <td>{{ stock.date }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,21 @@
+/* Size for brand */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+
+nav .navbar-brand .red
+{
+    color: #fb1436;
+    font-weight: 800;
+}
+
+.form-text{
+    margin-bottom: 20px;
+}

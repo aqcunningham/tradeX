@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- <img
+  alt="{{ top }}"
+  class="border img-fluid"
+  src="{{ url_for('static', filename='403-status-code.png') }}"
+  title="{{ top }}"> -->
+
+  <div style="position: relative; display: inline-block;">
+    <img
+        alt="{{ top }}"
+        class="border img-fluid"
+        src="{{ url_for('static', filename='oops.png') }}"
+        title="{{ top }}">
+    <div style="
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: red;
+        /* text-shadow: 2px 2px 4px black; */
+    ">{{ top }}</div>
+    <div style="
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: red;
+        /* text-shadow: 2px 2px 4px black; */
+    ">{{ bottom }}</div>
+</div>
+
+{% endblock %}

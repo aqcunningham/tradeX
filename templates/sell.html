@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}Sell the shares{% endblock %}
+
+{% block main %}
+    <form action="{{url_for('sell')}}" method="post">
+        <h2>Sell Your Stocks</h2>
+		<div class="form-text text-muted">
+       Choose from the tickers that you owe
+</div>
+
+        <div class="mb-3">
+			<select class="form-select mx-auto w-auto" autofocus name="symbol" style="min-width: 250px;">
+			<!-- <select class="form-control mx-auto w-auto" name="symbol"> -->
+    			<option value="">Select a stock</option>
+    			{% for stock in stocks %}
+    			<option value="{{ stock.symbol }}">{{ stock.symbol }}</option>
+    			{% endfor %}
+			</select>
+			</div>
+			  <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="shares" placeholder="Shares" type="text">
+        </div>
+		
+        <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Sell</button>
+    </form>
+{% endblock %}
+

@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Bought Shares
+{% endblock %}
+
+{% block main %}
+   <h1>Your Bought Stock Below:</h1>
+
+   <p>
+    {{name}} {{symbol}} {{price | usd}} ${{ "{:,.2f}".format(cash) }}
+{% endblock %}

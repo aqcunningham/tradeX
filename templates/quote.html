@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <!-- <form action="/quote" method="post"> -->
+    <form action="{{url_for('quote')}}" method="post">
+        <h2>Get a stock Quote</h2>
+		<div class="form-text text-muted">
+
+       Enter a valid US stock ticker (e.g. AAPL, TSLA, MSFT). <br>
+    ETFs like SPY or QQQ are not supported.
+</div>
+
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="symbol" placeholder="Symbol" type="text">
+        </div>
+        <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Get Quote</button>
+    </form>
+    
+{% endblock %}
